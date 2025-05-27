@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+
+}
+.header-section{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem;
+}
+ .logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+ }
+ .icon-names{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+ }
+ 
+
+ .body-section-header{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 1.5rem;
+
+ }
+ .body-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+
+ }
+#search{
+    padding: .5rem;
+    width: 100%;
+    border-radius: .5px;
+}
+#button{
+    padding: .5rem;
+    border-radius: .5px;
+
+}
+
