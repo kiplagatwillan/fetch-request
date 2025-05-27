@@ -3,55 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
-    <script src="./main.js" defer></script>
-    <title>Rock Paper Scissors</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="sttyles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="main-wrapper">
-      <div class="header-wrapper">
-        <div class="user-data-copyright">
-          <p class="copyright-sysmbol">&copy; 2025</p>
-          <a href="" class="linkedin-link">Willan Kiplagat</a>
+    <div class="nations-body">
+      <div class="header-section">
+        <div class="logo">NATIONALITY</div>
+        <div class="icon-names">
+          <p><i class="fa-brands fa-github"></i></p>
+          <p><i class="fa-brands fa-linkedin"></i></p>
         </div>
-        <div class="game-stats-box">
-          <p class="computer">Computer</p>
-          <p class="computer-score">0</p>
-          <p class="player-score">0</p>
-          <p class="player">player</p>
-        </div>
+        
       </div>
-      <div class="computer-box">
-        <p class="computer-name">computer</p>
-        <p class="computer-choice">✊</p>
+      <h2 class="body-section-header">Predict ethnicity of your name</h2>
+      <div class="body-section">
+        <form  class="search-name">
+          <input type="text" placeholder="enter your name" required id="search" />
+        </form>
+        <button class="search-button" id="button">search</button>
       </div>
-      <div class="results-box">
-        <p class="results">Currently Draw</p>
-      </div>
-      <div class="player-box">
-        <p class="player-name">player</p>
-        <p class="player-choice">✊</p>
-      </div>
-      <div class="game-choices-box">
-        <div class="choice rock-choice">
-          <p class="rock-emoji emoji">✊</p>
-          <p class="choice-text">Rock</p>
-        </div>
-        <div class="choice paper-choice">
-          <p class="paper-emoji emoji">✋</p>
-          <p class="choice-text">Paper</p>
-        </div>
-        <div class="choice scissors-choice">
-          <p class="scissors-emoji emoji">✌️</p>
-          <p class="choice-text">Scissors</p>
-        </div>
-      </div>
+      <p class="placeholder-name" ></p>
+      <p></p>
     </div>
   </body>
 </html>
